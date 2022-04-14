@@ -12,12 +12,7 @@ export default function Header() {
           content="width=device-width, initial-scale=1"
         ></meta>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        />
       </Head>
-      Header
     </header>
   );
 }
