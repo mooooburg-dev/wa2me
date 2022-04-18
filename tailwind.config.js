@@ -4,12 +4,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-    './src/**/*.jsx',
+    './pages/**/*.html',
+    './pages/**/*.js',
+    './pages/**/*.jsx',
     './public/**/*.html',
-    './src/**/*.ts',
-    './src/**/*.tsx',
+    './pages/**/*.ts',
+    './pages/**/*.tsx',
   ],
   theme: {
     //기본 폰트로 사용할 폰트들 기본설정해줌.
