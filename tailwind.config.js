@@ -3,14 +3,6 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-  purge: [
-    './pages/**/*.html',
-    './pages/**/*.js',
-    './pages/**/*.jsx',
-    './public/**/*.html',
-    './pages/**/*.ts',
-    './pages/**/*.tsx',
-  ],
   theme: {
     //기본 폰트로 사용할 폰트들 기본설정해줌.
     fontFamily: {
@@ -22,5 +14,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: ['postcss-import', 'tailwindcss', 'autoprefixer'],
 };
